@@ -28,7 +28,7 @@ brew install ansible
 ansible-galaxy install -r requirements.yml
 
 # Run Ansible playbook
-ansible-playbook -i inventory.yml default.yml
+ansible-playbook main.yml --ask-become-pass
 
 
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg" && sudo installer -pkg AWSCLIV2.pkg -target /
