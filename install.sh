@@ -2,7 +2,8 @@
 
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zprofile
+eval $(/opt/homebrew/bin/brew shellenv)
 # Install pyenv dependencies and pyenv
 brew install openssl readline sqlite3 xz zlib
 brew install pyenv
