@@ -43,6 +43,7 @@ brew install awscli
 brew install terraform
 brew install kubectl
 brew install kubie
+brew install colima
 brew install --cask snipaste
 brew install --cask iterm2
 brew install --cask 1password
